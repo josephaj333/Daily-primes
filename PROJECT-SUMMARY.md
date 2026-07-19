@@ -16,7 +16,7 @@ Your complete "Daily Primes" YouTube channel website is ready for deployment. Th
 ├── contact.html     - Contact page (form, social, FAQ)
 ├── style.css        - Complete styling (1,200+ lines)
 ├── script.js        - JavaScript functionality (450+ lines)
-├── Ads.txt          - AdSense configuration
+├── ads.txt          - AdSense configuration
 ├── README.md        - Full documentation
 └── QUICK-START.md   - Quick setup guide
 ```
@@ -198,7 +198,7 @@ https://source.unsplash.com/featured/?cristiano-ronaldo
 ### **4. Setup Google AdSense**
 ```
 1. Get your Publisher ID from Google AdSense
-2. Update Ads.txt:
+2. Update ads.txt:
    google.com, pub-YOUR-ID-HERE, DIRECT, f08c47fec0942fa0
 3. Add script to HTML head:
    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR-ID"></script>
@@ -228,7 +228,7 @@ about.html      - 14 KB
 contact.html    - 13 KB
 style.css       - 48 KB
 script.js       - 12 KB
-Ads.txt         - 1 KB
+ads.txt         - 1 KB
 README.md       - 8 KB
 QUICK-START.md  - 6 KB
 ─────────────────────

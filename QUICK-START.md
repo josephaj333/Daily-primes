@@ -12,7 +12,7 @@ I've built a complete, modern, professional website for the "Daily Primes" YouTu
 ├── contact.html     - Contact page (form, social links, FAQ)
 ├── style.css        - Complete styling (1000+ lines, fully responsive)
 ├── script.js        - JavaScript functionality (animations, form validation)
-├── Ads.txt          - AdSense configuration file
+├── ads.txt          - AdSense configuration file
 └── README.md        - Full documentation
 ```
 
@@ -140,7 +140,7 @@ Replace Unsplash URLs with your own:
 ```
 
 ### **4. Setup AdSense**
-Update `Ads.txt`:
+Update `ads.txt`:
 ```
 google.com, pub-YOUR-PUBLISHER-ID, DIRECT, f08c47fec0942fa0
 ```

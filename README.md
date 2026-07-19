@@ -11,7 +11,7 @@ daily-primes-website/
 ├── contact.html        # Contact form and social media integration
 ├── style.css           # Complete styling with animations and responsive design
 ├── script.js           # JavaScript functionality and interactions
-├── Ads.txt            # AdSense configuration file
+├── ads.txt            # AdSense configuration file
 └── README.md          # This file
 ```
 
@@ -113,7 +113,7 @@ Replace the YouTube URL in all HTML files:
 - Your channel: Update with your YouTube channel URL
 
 #### Add AdSense
-1. Update `Ads.txt` with your AdSense publisher ID
+1. Update `ads.txt` with your AdSense publisher ID
 2. Add your AdSense script tag to the HTML files
 3. Replace ad placeholder divs with actual ad units
 
