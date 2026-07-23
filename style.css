@@ -81,6 +81,7 @@ body {
 
 /* Container */
 .container {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 var(--spacing-lg);
@@ -315,7 +316,7 @@ a:hover {
    ============================================ */
 .hero {
     margin-top: 80px;
-    min-height: 100vh;
+    min-height: calc(100vh - 80px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -325,7 +326,7 @@ a:hover {
                 url('https://source.unsplash.com/featured/?football,stadium');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .hero::before {
@@ -353,6 +354,10 @@ a:hover {
     position: relative;
     z-index: 3;
     text-align: center;
+    max-width: 720px;
+    width: min(100%, 720px);
+    padding: 0 var(--spacing-lg);
+    margin: 0 auto;
     animation: fadeInUp 1s ease-out;
 }
 
@@ -1332,6 +1337,27 @@ section {
         margin-top: 60px;
         min-height: auto;
         padding: var(--spacing-lg);
+    }
+    
+    .hero-content {
+        max-width: 100%;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .youtube-card,
+    .contact-form,
+    .info-card,
+    .stat-card,
+    .faq-item,
+    .social-card,
+    .offering-card,
+    .blog-card {
+        width: 100%;
+    }
+    
+    .youtube-card {
+        padding: var(--spacing-xl) var(--spacing-lg);
     }
     
     .hero-title {
